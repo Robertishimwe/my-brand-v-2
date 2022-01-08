@@ -25,23 +25,25 @@
     <title>
         My Space
     </title>
-</head>
+</head>                                                                                 
 
 <body>
 
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     <div class="topnav">
-        <a class="active" href="#home">MMI</a>
+        <a class="active" href="#home">MMI</a> 
         <button class="button button2" onclick="window.location.href='Pages/Login-Page/login.html';">Login/SignUp</button>
         <button class="button button1">Resume</button>
+        <img src="./Assets/Images/menubar.svg" alt="menu-bar" id="menubar">
         <div class="link-background"></div><a class = "blog" href="Pages/Blog-Page/blog.html">Blog</a></div>
+        
         
     </div>
     
     <!--This is the main page-->
     <div class="main" id="primary">
-        <div class="circular--landscape"> <img src="Assets/Images/my-pic.jpeg" /> </div>
+        <div class="circular--landscape"> <img src="Assets/Images/my-pic.jpeg" class="circular--image" /> </div>
         <!--<div class="circular--portrait"> <img src="Assets/Images/my-pic.jpeg"/> </div>-->
         <div class="about-me">
             <p class="name">Mugisha Muhigirwa Israel</p>
@@ -49,14 +51,14 @@
             <p class="quote">“I want to help businesses make right decisions, data-driven decision.”</p>
         </div>
 
-        
+        <div class="btn" id="btn">
         <button class="buttons button11" id="first">Services</button>
         <button class="buttons button22" id="second">About Me</button>
         <button class="buttons button33" id="third">Portfolio</button>
         <button class="buttons button44" id="fourth">Get in Touch!</button>
-        
+        </div>
 
-    </div>
+        </div>
 
     <!--This is The Service Page-->
     <div class="service-page" id="services">
@@ -71,7 +73,12 @@
             business in daily tasks. My goal is to improve results, make the right decisions and save costs.
         </p>
 
-        <div class="data-dashboard">
+
+      
+    
+      <div class="dash-full"></div>
+      <div class="dv2">
+        <div class="    ">
             <div class="dashboard--landscape"> <img src="Assets/Images/Dashboards.png" /> </div>
             <p class="dashboard">Dashboards</p>
             <p class="about-dashboard">
@@ -93,7 +100,9 @@
             </p>
             <a class="more-fullstack" href="#learmore">(learn more)</a>
         </div>
+    </div>
 
+    <div class="anly">
         <div class="all-services">
             <div class="data-analysis">
                 <div class="analysis--landscape"> <img src="Assets/Images/analysis.png" /> </div>
@@ -118,9 +127,11 @@
                 <a class="more-analytics" href="#learmore">(learn more)</a>
             </div>
         </div>
+        </div>
+    </div>
         
     </div>
-
+</div>
     <!--This is The About Me Page-->
     <div class="about-me" id="secondary">
         <p class="me">About Me</p>
